@@ -1,3 +1,6 @@
 **/__pycache__/
 .DS_Store
 meta.yaml
+build.sh
+dist/
+riemannian_manifold.egg-info/
