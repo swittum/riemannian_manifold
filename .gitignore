@@ -4,3 +4,5 @@ meta.yaml
 build.sh
 dist/
 riemannian_manifold.egg-info/
+build/
+*.egg-info/
