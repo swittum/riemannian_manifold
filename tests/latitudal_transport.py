@@ -50,7 +50,7 @@ curve = np.array([theta, phi])
 curve_cartesian = np.array([to_cartesian(theta[i], phi[i]) for i in range(n)])
 ax.plot(curve_cartesian[:, 0], curve_cartesian[:, 1], curve_cartesian[:, 2], 'r')
 
-for i in range(0, n-1, 100):
+for i in range(0, n-1, 10):
     print(i)
     position = to_cartesian(*curve[:, i])
     tangent_polar = solution[i, :]

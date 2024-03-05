@@ -13,6 +13,6 @@ The Riemannian Manifold package provides tools and utilities for working with Ri
 You can install the Riemannian Manifold package using pip:
 
 ```bash
-pip install riemannian-manifold
+pip install riemann-manifold
 ````
 
