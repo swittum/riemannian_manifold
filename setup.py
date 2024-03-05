@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='riemann_manifold',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     author='Simon Wittum',
     author_email='simonwittum@gmx.de',
@@ -19,5 +19,5 @@ setup(
         'numpy==1.26.4',
         'scipy==1.12.0',
         'sympy==1.12'
-    ]p
+    ]
 )
